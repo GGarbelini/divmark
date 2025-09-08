@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0360c74d90.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+
+    <title>DivMark</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <img class="logo" src="./img/Logo.png" alt="logo" id="logo-nav">
+
+        <div class="hamburger" onclick="toggleMenu ()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        
+
+        <ul class="menu" id="menu">
+            <li><a href="#inicio" class="menu-link" href="#">Início</a></li>
+            <li><a href="#sobre" class="menu-link" href="#">Sobre</a></li>
+            <li><a href="#servicos" class="menu-link" href="#">Serviços</a></li>
+            <li><a href="#contato" class="menu-contato" href="#">Contato</a></li>
+        </ul>
+
+    </nav>
+
+    <section class="container" id="inicio" >
+        <div class="text-container">
+
+            <h1>Conquiste clientes todos os dias no digital! </h1>
+            <p>Nós ajudamos pequenas empresas a criarem sites de impacto e estratégias de marketing que realmente geram vendas e resultados.</p>
+
+
+
+            
+            
+            <div>
+                <button> <a href="#contato">Fale Conosco </a></button>
+                <button id="button"> <a href="#servicos">Saiba Mais</a></button>
+
+            </div>
+        </div>
+        <img src="./img/imagem 1.png" alt="" class="img-principal">
+
+    </section>
+
+    <section class="sobre" id="sobre">
+
+        <h2>Sobre a DivMark</h2>
+
+        <div class="text-sobre">
+            <img src="./img/imagem 2.png" alt="" class="imagem2">
+
+            <p>
+                Na <img src="./img/Logo2.PNG" alt="">, acreditamos que todo negócio, por menor que seja, pode ter grande
+                impacto no
+                mundo digital.
+                <br>
+                <br>
+                Foi com esse propósito que nascemos: transformar desafios em oportunidades reais de crescimento para
+                pequenos empreendedores.
+                <br>
+                <br>
+
+                Sabemos que o ambiente online é competitivo, mas também é cheio de possibilidades. Por isso, unimos
+                estratégias inteligentes de marketing digital e experiências web que encantam e convertem para que sua
+                empresa não apenas entre no digital, mas prospere nele.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="services" id="servicos">
+        <h2>Nossos Serviços</h2>
+
+        <div class="cards">
+
+
+            <div class="card">
+                <h3>Consultoria 360º</h3>
+                <p>Analisamos sua empresa e guiamos cada passo da sua digitalização: redes sociais, site, e-commerce,
+                    automação e estratégias de conteúdo que realmente funcionam.</p>
+            </div>
+
+            <div class="card">
+                <h3>Sua Presença Digital Começa Aqui</h3>
+                <p>Sites modernos, rápidos e estratégicos, pensados para fortalecer sua presença online e aumentar
+                    oportunidades de negócio.</p>
+            </div>
+
+            <div class="card">
+                <h3>Marketing de Performance</h3>
+                <p>Criamos campanhas estratégicas que ampliam seu alcance e multiplicam suas vendas, unindo redes
+                    sociais, tráfego pago e análises avançadas.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contato">
+
+        <h2>Inicie Sua Jornada Digital Agora</h2>
+        <p>Preencha o formulário e receba uma consulta personalizada para seu negócio.</p>
+
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+
+            <div class="name-email">
+                <div class="grupo-form">
+                    <input placeholder="Nome" class="campo-form" id="nome" />
+                </div>
+                <div class="grupo-form">
+                    <input placeholder="Contato" class="campo-form" id="contact" />
+                </div>
+            </div>
+            <div class="grupo-form">
+                <input placeholder="Assunto" class="campo-form" id="assunto" />
+            </div>
+
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Conte-nos sobre seu negócio e desafios no digital" rows="6"
+                    id="mensagem"></textarea>
+            </div>
+
+            <button type="submit" class="botao-form">Enviar Mensagem </button>
+        </form>
+    </section>
+
+    <footer>
+
+        <div class="logo">
+            <img class="footer-img" src="./img/Logo.png" alt="logo">
+        </div>
+
+        <div class="icones">
+            <a href="https://wa.me/message/LSWAOO6VDIKFJ1" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp" id="icons2"></i>
+            </a>
+
+            <a href="https://www.instagram.com/divmarkoficial/?hl=pt-br" target="_blank">
+                <i class="fa-brands fa-instagram" id="icons1"></i>
+            </a>
+        </div>
+
+        <div>
+            <p>© 2025 <img src="./img/Logo2.PNG" alt=""> . Todos os direitos reservados.</p>
+
+        </div>
+
+
+    </footer>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
