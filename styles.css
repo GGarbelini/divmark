@@ -110,7 +110,7 @@ nav {
 }
 
 .container {
-    background: radial-gradient(elíptico, var(--purple) 0%, var(--green) 70%, transparent);
+    
     display: flex;
     justify-content: space-around;
     padding: 40px 20px;
@@ -465,7 +465,6 @@ footer {
         position: fixed;
         justify-content: space-between;
         cursor: pointer;
-
         padding: 10px 50px 10px 30px;
         width: 100%;
 
@@ -522,15 +521,17 @@ footer {
     }
 
     .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-image: url(./img/imagem\ 9.png);
-        background-size: cover;
-        background-position: center;
-        box-shadow: 0 5px 20px #A855F7;
-        border-radius: 10px;
-        margin-bottom: 10px;
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./img/imagem\ 11.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 5px 20px #A855F7;
+    border-radius: 10px;
+    margin: 50p 0 0 0x;
+    padding: 300px 0; 
 
         .text-container {
         
@@ -539,36 +540,37 @@ footer {
 
 
         h1 {
-            font-family: "Roboto", sans-serif;
-            font-size: 30px;
-            font-weight: bold;
-            margin-top: 20px;
-            color: #3AFE9F;
-
+            display: none;
+            
         }
 
        
 
         p {
-            font-family: "Roboto", sans-serif;            
-            font-size: 20px;
-            margin: 60px 0 ;
-            padding-top: 20px;
-            color: var(--light-bg);
-            font-weight: 600;
-            text-align: justify;
-
-
-        }
+            display: none;
+         }
     }
 
     .img-principal {
         display: none;
 
     }
+   .button-principal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
 
-
-
+     #button-contact {
+    position: absolute;
+    bottom: 30px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 60%;
+  }
+    
+    
     #button {
         display: none;
     }
@@ -590,7 +592,7 @@ footer {
         }
 
         p {
-            width: 80%;
+            width: 92%;
         }
     }
 
