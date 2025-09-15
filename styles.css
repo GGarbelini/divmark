@@ -524,6 +524,7 @@ footer {
     position: relative; 
     display: flex;
     flex-direction: column;
+    height: auto;
     align-items: center;
     background-image: url(./img/imagem11.png);
     background-size: cover;
@@ -531,7 +532,7 @@ footer {
     box-shadow: 0 5px 20px #A855F7;
     border-radius: 10px;
     margin: 50p 0 0 0x;
-    padding: 300px 0; 
+    padding: 320px 0; 
 
         .text-container {
         
